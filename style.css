@@ -15,8 +15,8 @@ body{
     height: 50vh;
     padding-bottom: 20px;
     background: #093522;
-    border: 5px solid rgb(179, 153, 53);;
-    border-radius: 5px;
+    border: 5px solid #23692f;
+    border-radius: 15px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -25,10 +25,16 @@ body{
 .txt{
     width: 100%;
     padding: 20px 10px;
-    text-align: center;
-    background: rgb(179, 153, 53);
+    text-align: right;
+    /* background: rgb(179, 153, 53); */
+    background: #8fec73;
+    border: 5px solid #3da31d;
+    border-radius: 10px;
+    box-sizing: border-box;
     margin: 20px;
-    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    
 }
 .btn{
     width: 15%;
@@ -43,5 +49,9 @@ body{
     transition: .7s;
 }
 .btn:hover{
-
+    transform: scale(1.2);
+    border: 5px solid #b4f6bf;
+}
+.btn1{
+    background: #3da31d !important;  
 }
