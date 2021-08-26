@@ -6,3 +6,42 @@
 body{
     background: #343434;
 }
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20vw;
+    height: 50vh;
+    padding-bottom: 20px;
+    background: #093522;
+    border: 5px solid rgb(179, 153, 53);;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.txt{
+    width: 100%;
+    padding: 20px 10px;
+    text-align: center;
+    background: rgb(179, 153, 53);
+    margin: 20px;
+    border-radius: 5px;
+}
+.btn{
+    width: 15%;
+    height: 11%;
+    margin:  auto 10px;   
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid #23692f;
+    background: #8fec73;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .7s;
+}
+.btn:hover{
+
+}
